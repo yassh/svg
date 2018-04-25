@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <defs>
+    <style>
+      @keyframes animation {
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .trace {
+        fill: none;
+
+        stroke: white;
+        stroke-width: 2;
+        stroke-dasharray: 1000 1000;
+        stroke-dashoffset: 1000;
+
+        animation-name: animation;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+      }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="600" height="300" rx="85" ry="85" />
+  <path class="trace" d="M 5 135 C 2 71 26 49 108 48 C 208 46 197 68 210 131 C 219 174 229 199 322 193 C 392 188 406 164 406 125 C 406 98 405 48 516 51 C 542 52 591 63 590 127" />
+</svg>
