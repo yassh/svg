@@ -7,7 +7,7 @@
     y2="310"
     stroke="black"
     stroke-opacity="0.125"
-    stroke-width="2"
+    stroke-width="1"
     stroke-dasharray="2"
   />
 
@@ -19,7 +19,7 @@
     y2="160"
     stroke="black"
     stroke-opacity="0.125"
-    stroke-width="2"
+    stroke-width="1"
     stroke-dasharray="2"
   />
 
@@ -33,6 +33,6 @@
     ry="85"
     fill="none"
     stroke="black"
-    stroke-width="2"
+    stroke-width="1"
   />
 </svg>
