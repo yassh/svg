@@ -1,0 +1,11 @@
+{
+  "name": "svg",
+  "version": "0.0.0",
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "scripts": {
+    "build": "pug ./docs --extension svg --pretty",
+    "start": "pug ./docs --extension svg --pretty --watch"
+  }
+}
