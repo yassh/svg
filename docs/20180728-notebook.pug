@@ -1,0 +1,12 @@
+- const width = 1820
+- const height = 2570
+- const rows = 32
+- const rowHeight = height / rows
+- const redLineX = 150
+
+svg(xmlns="http://www.w3.org/2000/svg" width=width height=height viewBox=`0 0 ${1820} ${2570}`)
+  - for (let i = 1; i < rows; i++)
+    - const y = rowHeight * i
+    line(x1="0" y1=y x2=width y2=y stroke="blue" stroke-opacity="0.5" stroke-width="1")
+
+  line(x1=redLineX y1=rowHeight x2=redLineX y2=(height - rowHeight) stroke="red" stroke-opacity="0.5" stroke-width="1")
